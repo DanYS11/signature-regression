@@ -100,6 +100,7 @@ def my_main(
 
 
 if __name__ == '__main__':
+    print("hello")
     config = configs[str(sys.argv[1])]
     dirname = str(sys.argv[1])
     niter = int(sys.argv[2])
